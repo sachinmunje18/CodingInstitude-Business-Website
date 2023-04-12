@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="css/mystyle.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <title>Carousel Template for Bootstrap</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/carousel/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+            <a class="navbar-brand" href="index.html">The Coding Institute</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Contact Us <span class="sr-only">(current)</span></a>
+                    </li>
+                    <!-- Button trigger modal -->
+
+
+                </ul>
+                <form class="form-inline mt-2 mt-md-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <main role="main">
+
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="do.jpg" class="d-block w-100" alt="Girl in a jacket" width="500" height="400">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Mobile app developer.</h5>
+                        <p>A mobile app developer is a software developer who creates applications for mobile devices such as smartphones and tablets.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="do2.jpg" class="d-block w-100" alt="Girl in a jacket" width="500" height="400">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Front-end developer.</h5>
+                        <p>A web developer who focuses on designing and coding the visual elements of a website or application that users interact with.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="do4.jpg" class="d-block w-100" alt="Girl in a jacket" width="500" height="400">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Computer systems engineer.</h5>
+                        <p>A computer systems engineer is a professional who designs, develops, and maintains computer hardware, software, and network systems.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+        </div>
+        <hr>
+        <h1 class="text-center">Our Services</h1>
+        
+
+        <!-- Marketing messaging and featurettes
+      ================================================== -->
+        <!-- Wrap the rest of the page in another container to center all the content. -->
+
+        <div class="container marketing">
+
+            <!-- Three columns of text below the carousel -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <center> <img class="rounded-circle" src="python.png" alt="Generic placeholder image" width="140"
+                            height="140"></center>
+                    <center>
+                        <h2>Python</h2>
+                    </center>
+                    <p>Python is a high-level, interpreted programming language known for its simplicity, readability,
+                        and flexibility.
+                        It has a vast library of pre-built modules and can be used for a variety of applications, such
+                        as web development,
+                        data analysis, artificial intelligence, and automation.Python has a simple syntax similar to the
+                        English language. </p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <center> <img class="rounded-circle" src="java.png" alt="Generic placeholder image" width="140"
+                            height="140"></center>
+                    <center>
+                        <h2>Java</h2>
+                    </center>
+                    <p>Java is an object-oriented, class-based programming language widely used for developing
+                        enterprise-level applications,
+                        mobile apps, and games. It is known for its platform independence, meaning that programs written
+                        in Java can run on
+                        different operating systems without modification. </p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <center> <img class="rounded-circle" src="c++.jpg" alt="Generic placeholder image" width="140"
+                            height="140"></center>
+                    <center>
+                        <h2>C++</h2>
+                    </center>
+                    <p>C++ is a general-purpose, compiled programming language used for creating high-performance
+                        software applications,
+                        such as operating systems, games, and scientific simulations. It is an extension of the C
+                        language and supports
+                        features such as object-oriented programming.</p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
+
+
+            <!-- START THE FEATURETTES -->
+
+            <div class="container my-4">
+                <div class="row featurette d-flex justify-content-center align-items-center">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading">Experience is the name everyone gives to their mistakes. <span
+                                class="text-muted">It’ll blow your
+                                mind.</span></h2>
+                        <p class="lead">Each programming language has its own syntax, data types, and structures that
+                            determine
+                            how the code is written and executed. Some languages are more suited to certain tasks than
+                            others,
+                            and programmers choose
+                            the language that best fits their needs and goals.</p>
+                    </div>
+                    <div class="col-md-5">
+                        <img class="img-fluid" src="com4.jpg" alt="">
+
+
+                    </div>
+                </div>
+                <div class="row featurette d-flex justify-content-center align-items-center">
+                    <div class="col-md-7 order-md-2">
+                        <h2 class="featurette-heading">“Java is to JavaScript what car is to Carpet. <span
+                                class="text-muted">It’ll blow your
+                                mind.</span></h2>
+                        <p class="lead">The development of programming languages has been essential in the evolution of
+                            computer
+                            technology,
+                            allowing humans to communicate
+                            with machines and automate a wide range of tasks.</p>
+                    </div>
+                    <div class="col-md-5 order-md-1">
+                        <img class="img-fluid" src="com1.jpg" alt="">
+
+                    </div>
+                </div>
+                <div class="row featurette d-flex justify-content-center align-items-center">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading">Any fool can write code that a computer can understand <span
+                                class="text-muted">It’ll blow your
+                                mind.</span></h2>
+                        <p class="lead">Coding has become an essential skill in today's digital world, and many
+                            industries
+                            rely on
+                            software and technology to function. Learning to code can open up a range of career
+                            opportunities, from software development to data science, cybersecurity, and beyond</p>
+                    </div>
+                    <div class="col-md-5">
+                        <img class="img-fluid" src="com5.jpg" alt="">
+
+                    </div>
+                </div>
+            </div>
+            <!-- /END THE FEATURETTES -->
+
+        </div><!-- /.container -->
+
+
+        <!-- FOOTER -->
+        <footer class="container">
+            <p class="float-right"><a href="#">Back to top</a></p>
+            <p>&copy; 2022-2023 SachinRM, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        </footer>
+    </main>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+</body>
+
+</html>
